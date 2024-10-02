@@ -1,0 +1,126 @@
+#product-card:hover{
+    transform:scale(.98);
+}
+
+.products-data{
+    background-color: aliceblue!important;
+    color: black !important;
+}
+.flavour-card {
+transition:all .3s linear;   
+}    
+.flavour-card:hover {
+transform: scale(0.98); /* Moves the card up slightly */  
+} 
+.menu-description,.menu-price,.menu-tabs,.card-ttitle{
+    color:white;
+}
+.card-ttitle{
+    padding-top: 1rem;
+}
+.carrd:hover{
+    transform:translate(5px);
+    
+}
+.carrd-title{
+    color:"white";
+}
+.title{
+    color:"white";
+}
+input{
+    padding:0.98rem;
+    margin-right:1rem;
+    margin-left:1rem;
+    width:300px;
+
+}
+textarea{
+    margin-top:1rem;
+    height:100px;
+    width:300px;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+.bt{
+    text-align:center;
+    margin-top:2rem;
+    margin-right:1rem;
+}
+.background-section {
+    background-image: url('./assets/2.jfif'); /* Use the correct path for the image */
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust height as necessary */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+/* Ensure the container takes full width and the flex properties manage layout */
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Main image setup */
+  .image-wrapper {
+    position: relative; /* Allows absolute positioning of the overlay image */
+    width: 80%; /* Flexible width to adapt to screen size */
+    height: auto; /* Let height adjust proportionally */
+  }
+  
+  .main-image {
+    width: 100%; /* The main image will scale with the container */
+    height: auto;
+    display: block;
+  }
+  
+  /* Overlay image styles without media queries */
+  .overlay-image {
+    position: absolute;
+    bottom: -5%; /* Place the image relative to the bottom */
+    left: -10%; /* Position the image on the left */
+    width: 30%; /* Responsive width relative to the main image */
+    height: auto;
+    border: 3px solid white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Optional: Add smooth transitions on resize */
+.card-bbody{
+    background-color: black;
+    
+}
+
+/* Light Mode */
+.light-mode {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  .dark-mode .navbar {
+    background-color: #333;
+    color: white;
+  }
+  
+  .dark-mode .btn {
+    background-color: #444;
+    color: white;
+  }
+  
+  /* Customize other elements for dark mode as needed */
+  
+  
